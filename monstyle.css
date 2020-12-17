@@ -1,0 +1,149 @@
+
+/* Classe paramétre de la page en général */
+
+*{
+    margin:0;
+}
+
+.page {
+    width:780px;
+	margin:auto;
+	font-size:16px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+.page__left {
+    width:300px;
+    background-color:#fe504f;
+    color:white;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.page__left div {
+    margin-left:20px;
+    margin-top:5px;
+}
+
+div.page__left__picture {
+    margin:0;
+    text-align:center; 
+}
+
+.page__left__picture img {
+    width: 180px;
+}
+
+div.page__left__name {
+    margin:0;
+	font-size:25px;
+}
+
+div.page__left__title,
+.page__right__title {
+    margin-top:15px;
+    margin-bottom:10px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.page__left__presentation {
+	font-size:12px;
+    margin-right:20px;
+}
+
+.page__left__icon__call,
+.page__left__icon__addr,
+.page__left__icon__mail,
+.page__left__icon__french,
+.page__left__icon__english,
+.page__left__icon__spanish,
+.page__right__icon__date,
+.page__right__icon__teamwork
+ {
+    background-repeat:no-repeat;
+    background-size:18px;
+    padding-left:30px;
+    margin-top:5px;
+}
+
+.page__left__icon__call {
+    background-image:url("image/call.svg");
+}
+
+.page__left__icon__addr {
+    background-image:url("image/addr.svg");
+}
+
+.page__left__icon__mail {
+    background-image:url("image/mail.svg");
+}
+
+.page__left__skill__progress {
+    width:250px;
+    height:5px;
+    background-color:#ef8686;
+    border-radius:2px;
+}
+
+.page__left__skill__progress div {
+    margin:0;
+    height:5px;
+    background-color:#ffffff;
+    border-radius:2px;
+}
+
+.page__left__icon__french {
+    background-image:url("image/french.svg");
+}
+
+.page__left__icon__english {
+    background-image:url("image/english.svg");
+}
+
+.page__left__icon__spanish {
+    background-image:url("image/spanish.svg");
+}
+
+.page__right {
+    width:480px;
+    color:#715c5c;
+}
+
+.page__right div {
+    margin-left:20px;
+}
+
+.page__right__frame {
+    border:3px solid #fe504f;
+    margin-top:5px;
+}
+
+.page__right > .page__right__title {
+    border-bottom: 2px solid #fe504f;
+}
+
+.page__right__subtitle {
+    font-weight:bold;
+    margin-top:10px;
+	font-size:18px;
+}
+
+.page__right__content {
+    text-align:justify;
+    padding-right:5px;
+}
+
+.page__right__icon__date {
+    background-image:url("image/date.svg");
+}
+
+.page__right__icon__teamwork {
+    background-image:url("image/teamwork.svg");
+}
+
+div.text__center {
+    margin:0;
+    text-align:center;
+}
